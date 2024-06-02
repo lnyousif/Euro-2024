@@ -1,0 +1,19 @@
+{
+      "teams": [
+            {
+                  "name": "Team A",
+                  "logo": "team_a_logo.png",
+                  "group": "Group 1"
+            },
+            {
+                  "name": "Team B",
+                  "logo": "team_b_logo.png",
+                  "group": "Group 2"
+            },
+            {
+                  "name": "Team C",
+                  "logo": "team_c_logo.png",
+                  "group": "Group 1"
+            }
+      ]
+}

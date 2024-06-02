@@ -23,3 +23,5 @@ tournament.record_match("Team 1", 2, "Team 2", 2)  # Draw match, both Team 1 and
 
 # Display standings
 tournament.display_standings()
+
+
