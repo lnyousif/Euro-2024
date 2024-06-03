@@ -1,75 +1,106 @@
 {
       "tournament": "Euro 2024 Tournament",
+      "teams": [
+            {
+                  "name": "Italy",
+                  "group": "B"
+            },
+            {
+                  "name": "Albania",
+                  "group": "B"
+            },
+            {
+                  "name": "Spain",
+                  "group": "B"
+            },
+            {
+                  "name": "Croatia",
+                  "group": "B"
+            }
+      ],
       "matches": [
             {
-                  "Team1": "team1",
-                  "Team2": "team2",
-                  "Date": "2024-06-01",
+                    "Team1": "Spain",
+                    "Team2": "Croatia",
+                    "Date": "2024-06-15",
+                    "Team1_Goals": 0,
+                    "Team2_Goals": 0,
+                    "recorded": false
+            },
+            {
+                    "Team1": "Italy",
+                    "Team2": "Albania",
+                    "Date": "2024-06-19",
+                    "Team1_Goals": 0,
+                    "Team2_Goals": 0,
+                    "recorded": false
+            },
+            {
+                    "Team1": "Croatia",
+                    "Team2": "Albania",
+                    "Date": "2024-06-20",
+                    "Team1_Goals": 0,
+                    "Team2_Goals": 0,
+                    "recorded": false
+            },
+            {
+                    "Team1": "Spain",
+                    "Team2": "Italy",
+                    "Date": "2024-06-24",
+                    "Team1_Goals": 0,
+                    "Team2_Goals": 0,
+                    "recorded": false
+            },
+            {
+                    "Team1": "Albania",
+                    "Team2": "Spain",
+                    "Date": "2024-06-24",
+                    "Team1_Goals": 0,
+                    "Team2_Goals": 0,
+                    "recorded": false
+            },
+            {
+                    "Team1": "Croatia",
+                    "Team2": "Italy",
+                    "Date": "2024-06-24",
+                    "Team1_Goals": 0,
+                    "Team2_Goals": 0,
+                    "recorded": false
+            },
+            {
+                  "Team1": "Italy",
+                  "Team2": "Albania",
+                  "Date": "2024-06-15",
                   "Team1_Goals": 0,
                   "Team2_Goals": 0
             },
             {
-                  "Team1": "team1",
-                  "Team2": "team2",
-                  "Date": "2024-06-01",
+                  "Team1": "Croatia",
+                  "Team2": "Albania",
+                  "Date": "2024-06-19",
                   "Team1_Goals": 0,
                   "Team2_Goals": 0
             },
             {
-                  "Team1": "team1",
-                  "Team2": "team2",
-                  "Date": "2024-06-01",
+                  "Team1": "Spain",
+                  "Team2": "Italy ",
+                  "Date": "2024-06-20",
                   "Team1_Goals": 0,
                   "Team2_Goals": 0
             },
             {
-                  "Team1": "team1",
-                  "Team2": "team2",
-                  "Date": "2024-06-01",
+                  "Team1": "Albania",
+                  "Team2": "Spain",
+                  "Date": "2024-06-24",
                   "Team1_Goals": 0,
                   "Team2_Goals": 0
             },
             {
-                  "Team1": "team1",
-                  "Team2": "team2",
-                  "Date": "2024-06-01",
+                  "Team1": "Croatia",
+                  "Team2": "Italy ",
+                  "Date": "2024-06-24",
                   "Team1_Goals": 0,
                   "Team2_Goals": 0
-            },
-            {
-                  "Team1": "team1",
-                  "Team2": "team2",
-                  "Date": "2024-06-01",
-                  "Team1_Goals": 0,
-                  "Team2_Goals": 0
-            },
-            {
-                  "Team1": "team1",
-                  "Team2": "team2",
-                  "Date": "2024-06-01",
-                  "Team1_Goals": 0,
-                  "Team2_Goals": 0
-            },
-            {
-                  "Team1": "team1",
-                  "Team2": "team2",
-                  "Date": "2024-06-01",
-                  "Team1_Goals": 0,
-                  "Team2_Goals": 0
-            },
-            {
-                  "Team1": "team1",
-                  "Team2": "team2",
-                  "Date": "2024-06-01",
-                  "Team1_Goals": 0,
-                  "Team2_Goals": 0
-            },
-            {
-                  "Team1": "team1",
-                  "Team2": "team2",
-                  "Date": "2024-06-01",
-                  "Team1_Goals": 0,
-                  "Team2_Goals": 0
-            }
+            }  
       ]
 }

@@ -1,3 +1,5 @@
+from tabulate import tabulate
+
 class Tournament:
     def __init__(self, name):
         self.name = name
@@ -15,6 +17,16 @@ class Tournament:
             team2.record_match(team2_goals, team1_goals)
 
     def display_standings(self):
-        standings = sorted(self.teams, key=lambda team: (-team.points, -team.goal_difference(), -team.goals_for))
+        standings = sorted(self.teams, key=lambda team: (-team.points, -team.points, -team.goal_difference(), -team.goals_for))
+
+
+        ts=[]
+
         for i, team in enumerate(standings, start=1):
-            print(f"{i}. {team.name}, {team.points} pts, {team.goal_difference()} GD")
+            ts.append([team.name, team.points, team.goals_for, team.goals_against, team.goal_difference()])
+            #print '%-12i%-12i' % (f"{i}. {team.name}, {team.points} pts, {team.goals_for} GF {team.goals_against} GA {team.goal_difference()} GD")
+
+        print(tabulate(ts, headers=['Team', 'PTS', 'GF', 'GA', 'GD']))
+
+        print ("\n")
+
