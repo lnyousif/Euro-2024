@@ -17,7 +17,7 @@ for team in tournment["teams"]:
 
 
 groups[0].record_match("Italy", 3, "Spain", 1)  # Team 1 won with 3 goals, Team 2 lost with 1 goal
-groups[0].record_match("Albania", 3, "Spain", 1)  # Team 1 won with 3 goals, Team 2 lost with 1 goal
+groups[0].record_match("Albania", 3, "Croatia", 1)  # Team 1 won with 3 goals, Team 2 lost with 1 goal
 
 groups[0].display_standings()
 
